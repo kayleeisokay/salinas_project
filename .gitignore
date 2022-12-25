@@ -31,3 +31,5 @@ share/python-wheels/
 *.egg
 .idea/
 MANIFEST
+
+.DS_Store
