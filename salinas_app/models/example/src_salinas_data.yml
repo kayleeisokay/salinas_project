@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: source
+    database:
+    schema: public_source
+    tables:
+      - name: crime_data
+        description: Covid data for all  chosen states
+        columns:
+          - name: crime
+          - name: year
+          - name: month
+          - name: day

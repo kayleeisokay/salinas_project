@@ -8,3 +8,4 @@ This is a repo that utlizes...
 4. Postgres
 
 to generate a Metabase dashboard of Salinas's crime activity.
+- https://cityofsalinas.opendatasoft.com/api/v2/console
