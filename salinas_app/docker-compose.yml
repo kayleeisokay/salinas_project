@@ -8,12 +8,12 @@ services:
     ports:
       - "8501:8501"
     volumes:
-      - streamlit:/data/streamlit
+      - "./project:/usr/src/app/project:delegated"
     depends_on:
       - postgres
       
   postgres:
-    container_name: postgres
+    container_name: postgres-salinas
     image: postgres
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
@@ -23,7 +23,7 @@ services:
     volumes:
        - postgres:/data/postgres
     ports:
-      - "5432:5432"
+      - "5433:5432"
     networks:
       - postgres
     restart: unless-stopped

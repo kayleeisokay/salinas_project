@@ -1,6 +1,5 @@
 requests
 pandas
-json
 dbt-core
 dbt-postgres
 streamlit
