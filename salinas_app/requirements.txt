@@ -1,3 +1,8 @@
 requests
 pandas
 json
+dbt-core
+dbt-postgres
+streamlit
+psycopg2-binary
+sqlalchemy
