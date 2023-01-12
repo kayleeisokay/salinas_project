@@ -19,3 +19,9 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: my_third_dbt_model
+    description: "Aggregated crime data"
+    columns:
+      - name: total_crimes
+        description: "Aggregated crime metric"

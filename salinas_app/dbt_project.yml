@@ -36,6 +36,8 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+    metrics:
+      +materialized: table
 
 seeds:
   salinas_app:
